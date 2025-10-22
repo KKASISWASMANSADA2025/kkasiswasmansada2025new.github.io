@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio KKASISWASMANSADA2025</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to bottom right, #0f2027, #203a43, #2c5364);
+      color: white;
+      min-height: 100vh;
+    }
+
+    header {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 20px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      backdrop-filter: blur(8px);
+    }
+
+    header h1 {
+      font-size: 28px;
+      letter-spacing: 2px;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #fff;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #00d4ff;
+    }
+
+    .hero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 80px 20px;
+      background-image: url('https://images.unsplash.com/photo-1503264116251-35a269479413?auto=format&fit=crop&w=1920&q=80');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+    }
+
+    .hero h2 {
+      font-size: 50px;
+      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+    }
+
+    .hero p {
+      font-size: 20px;
+      margin-top: 15px;
+      max-width: 600px;
+      line-height: 1.6;
+      text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+    }
+
+    .section {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .section h3 {
+      font-size: 30px;
+      border-bottom: 3px solid #00d4ff;
+      display: inline-block;
+      margin-bottom: 25px;
+    }
+
+    .about, .projects, .contact {
+      background: rgba(255, 255, 255, 0.05);
+      padding: 30px;
+      border-radius: 10px;
+      margin-bottom: 50px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .project-item {
+      margin-bottom: 20px;
+    }
+
+    .project-item h4 {
+      color: #00d4ff;
+    }
+
+    .contact a {
+      color: #00d4ff;
+      text-decoration: none;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.5);
+      font-size: 14px;
+      color: #ccc;
+    }
+
+    @media (max-width: 600px) {
+      .hero h2 { font-size: 36px; }
+      .hero p { font-size: 16px; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🌟 Portofolio KKASISWASMANSADA2025 🌟</h1>
+    <nav>
+      <a href="#tentang">Tentang Saya</a>
+      <a href="#proyek">Proyek</a>
+      <a href="#kontak">Kontak</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Halo, Saya KKASISWASMANSADA2025 👋</h2>
+    <p>Selamat datang di portofolio pribadi saya! Saya suka membuat proyek kreatif, mempelajari hal baru, dan membagikan ide melalui teknologi.</p>
+  </section>
+
+  <section id="tentang" class="section about">
+    <h3>Tentang Saya</h3>
+    <p>Saya adalah pelajar yang tertarik dengan dunia teknologi dan desain web. Saat ini saya sedang belajar membuat website menggunakan HTML, CSS, dan GitHub Pages untuk mengembangkan keterampilan digital saya.</p>
+  </section>
+
+  <section id="proyek" class="section projects">
+    <h3>Proyek Saya</h3>
+
+    <div class="project-item">
+      <h4>🌐 Website Sekolah</h4>
+      <p>Membuat tampilan website sekolah sederhana dengan HTML & CSS, menampilkan profil, visi misi, dan data guru.</p>
+    </div>
+
+    <div class="project-item">
+      <h4>📱 Aplikasi Jadwal Pelajaran</h4>
+      <p>Aplikasi web ringan untuk membantu siswa mengatur jadwal belajar harian.</p>
+    </div>
+
+    <div class="project-item">
+      <h4>💡 Desain Poster Digital</h4>
+      <p>Proyek desain poster promosi kegiatan sekolah menggunakan Canva dan Photoshop.</p>
+    </div>
+  </section>
+
+  <section id="kontak" class="section contact">
+    <h3>Kontak</h3>
+    <p>📧 Email: <a href="mailto:kkasiswasmansada2025@gmail.com">kkasiswasmansada2025@gmail.com</a></p>
+    <p>💻 GitHub: <a href="https://github.com/kkasiswasmansada2025" target="_blank">github.com/kkasiswasmansada2025</a></p>
+  </section>
+
+  <footer>
+    © 2025 KKASISWASMANSADA2025 | Dibuat dengan 💙 menggunakan GitHub Pages
+  </footer>
+
+</body>
+</html>
